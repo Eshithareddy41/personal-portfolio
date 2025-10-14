@@ -1,0 +1,151 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  color: #0078ff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #0078ff;
+}
+
+#theme-toggle {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #0078ff, #00c6ff);
+  color: white;
+}
+
+.hero span {
+  color: #fff700;
+}
+
+.hero .btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: white;
+  color: #0078ff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background: #fff700;
+}
+
+
+.about {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+
+.projects {
+  background: #f1f5f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact a {
+  color: #0078ff;
+  text-decoration: none;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+body.dark {
+  background: #1a1a1a;
+  color: #f5f5f5;
+}
+
+body.dark .navbar {
+  background: #222;
+}
+
+body.dark .project-card {
+  background: #2c2c2c;
+}
+
+body.dark .hero {
+  background: linear-gradient(135deg, #111, #333);
+}
+
+body.dark footer {
+  background: #000;
+}
