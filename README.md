@@ -49,5 +49,5 @@ A responsive portfolio platform created to showcase projects, technical skills, 
 
 ## Live Website
 
-https://personal-portfolio-1t8s-oclokr78e.vercel.app/
+https://personal-portfolio-1t8s-h52tgqiy5.vercel.app
 
